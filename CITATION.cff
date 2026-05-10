@@ -5,9 +5,9 @@ type: software
 version: "1.0.0"
 date-released: "2026-05-10"
 license: MIT
-repository-code: "https://github.com/{username}/urban3D_vector_framework"
-url: "https://doi.org/10.5281/zenodo.XXXXXXX"
-# doi: "10.5281/zenodo.XXXXXXX"   # Uncomment after reserving / publishing the Zenodo DOI
+repository-code: "https://github.com/r-estanqueiro/urban3D_vector_framework"
+url: "https://doi.org/10.5281/zenodo.20113631"
+doi: "10.5281/zenodo.20113631"
 
 # Sole author of the software (this repository).
 authors:

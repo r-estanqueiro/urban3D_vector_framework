@@ -123,7 +123,7 @@ All data are georeferenced to ETRS89 / PT-TM06 (EPSG:3763). Each dataset retains
 
 > Estanqueiro, R., Rebelo, C., & Tenedório, J. A. (2026). 3D Urban Structural Morphology at the Block Scale: A Geometric Vector Framework Based on Mean Building Volume, Height Variation Coefficient, and Mean Sky View Factor. *(submitted)*. (Manuscript DOI to be added on acceptance.)
 
-A Zenodo DOI for this code archive will be added on publication.
+This code archive is permanently archived on Zenodo: [https://doi.org/10.5281/zenodo.20113631](https://doi.org/10.5281/zenodo.20113631) (Concept DOI — always points to the latest version).
 
 ## Software author
 
