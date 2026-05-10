@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Pytest
+.pytest_cache/
+
+# Pipeline outputs (regenerable)
+SM1/output/
+SM2/output/
+figures/output/
+
+# But: keep the canonical SM1 output committed in SM2/input as the SM1 -> SM2 handoff
+# (This lets reviewers run SM2 + figures without producing the SVF raster themselves.)
+!SM2/input/
+!SM2/input/**
+
+# ArcGIS lock files
+*.sr.lock
+
+# Large rasters (SVF tif is ~1.9 GB; users generate it externally)
+*.tif
+
+# Formal supplementary materials of the paper.
+# These belong with the manuscript, not with the code repository.
+# They are uploaded to Zenodo and to the MDPI submission system manually.
+SM1/SM1_Data_Preparation_and_3D_Metrics.md
+SM1/SM1_Data_Preparation_and_3D_Metrics.docx
+SM2/SM2_Statistical_Analysis_and_Typology.md
+SM2/SM2_Statistical_Analysis_and_Typology.docx
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

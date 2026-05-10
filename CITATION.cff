@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+title: "urban3D_vector_framework: A Reproducible Geometric Vector Framework for 3D Urban Morphology at the Block Scale"
+message: "If you use this software, please cite both the software (this repository) and the accompanying manuscript (see references)."
+type: software
+version: "1.0.0"
+date-released: "2026-05-10"
+license: MIT
+repository-code: "https://github.com/{username}/urban3D_vector_framework"
+url: "https://doi.org/10.5281/zenodo.XXXXXXX"
+# doi: "10.5281/zenodo.XXXXXXX"   # Uncomment after reserving / publishing the Zenodo DOI
+
+# Sole author of the software (this repository).
+authors:
+  - family-names: "Estanqueiro"
+    given-names: "Rossana"
+    email: "rossana.estanqueiro@fcsh.unl.pt"
+    affiliation: "Universidade NOVA de Lisboa, Faculty of Social Sciences and Humanities, Department of Geography and Regional Planning, Lisbon, Portugal; Centre for Functional Ecology — Science for People & the Planet (CFE), University of Coimbra; Associate Laboratory TERRA"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # Uncomment when added
+
+keywords:
+  - urban morphology
+  - 3D urban form
+  - block typology
+  - K-means
+  - consensus clustering
+  - sky view factor
+  - building volume
+  - height variation
+  - geopandas
+  - scikit-learn
+  - GIS
+  - Amadora
+  - Portugal
+  - reproducible research
+
+# The accompanying manuscript (submitted) — co-authored by all three researchers.
+# When citing the SCIENTIFIC RESULTS, cite this preferred-citation; when citing
+# the SOFTWARE itself, the citation defaults to the `authors` block above.
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Estanqueiro"
+      given-names: "Rossana"
+      email: "rossana.estanqueiro@fcsh.unl.pt"
+    - family-names: "Rebelo"
+      given-names: "Carla"
+    - family-names: "Tenedório"
+      given-names: "José António"
+  title: "3D Urban Structural Morphology at the Block Scale: A Geometric Vector Framework Based on Mean Building Volume, Height Variation Coefficient, and Mean Sky View Factor"
+  year: 2026
+  notes: "Manuscript submitted"
+  # doi: "10.XXXX/XXXXXX"   # Uncomment when the publisher assigns a DOI
+
+# CRediT contribution roles for the manuscript:
+#   R. Estanqueiro — Conceptualization, Methodology, Software, Formal analysis,
+#                    Validation, Investigation, Data curation,
+#                    Writing — original draft, Visualization
+#   C. Rebelo      — Validation, Investigation,
+#                    Writing — review and editing, Visualization
+#   J. A. Tenedório — Conceptualization, Writing — review and editing
